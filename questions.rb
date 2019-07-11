@@ -398,6 +398,9 @@ class QuestionLike
       JOIN
         question_likes
         ON
+
+
+        
         question_likes.question_id = questions.id
       GROUP BY questions.title
       ORDER BY COUNT(questions.id) DESC
