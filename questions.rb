@@ -406,5 +406,4 @@ class QuestionLike
     return nil unless questions.length > 0
     questions.map {|q| Question.new(q)}
   end
-
 end
