@@ -403,7 +403,6 @@ class QuestionLike
       ORDER BY COUNT(questions.id) DESC
       LIMIT ?
     SQL
-
     return nil unless questions.length > 0
     questions.map {|q| Question.new(q)}
   end
