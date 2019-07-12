@@ -412,7 +412,4 @@ end
 
 
 
-
-
-
 sudo BROKER_BACKUP_PORT=3370 BROKER_BACKUP_URL=localhost BROKER_DIR='/data' CLUSTERS_ET3='ld11 ld12 ld13 ld14 ld21 ld22 ld23 ld24' ET3HOST=localhost:9303 INGESTTOPIC=ingest-source-ldi INGESTERTYPE=ldi LB_PORT=8100 LB_URL=localhost LD11ESHOST=localhost:9211 LD12ESHOST=localhost:9212 LD13ESHOST=localhost:9213 LD14ESHOST=localhost:9214 LD21ESHOST=localhost:9221 LD22ESHOST=localhost:9222 LD23ESHOST=localhost:9223 LD24ESHOST=localhost:9224 LDAPIPRIVATE=localhost.logdna.com:4444 MGHOST=localhost:27017 MGPASS=qkBEDhp8mVsuePRg MGUSER=lddev NODE_ENV=development REDISQHOST=localhost RQHOST=127.0.0.1 RSHOST=localhost RSPORT=6371 USE_LDRSS=0 RPHOST=localhost RPPORT=6351 nodemon ingester.js 
