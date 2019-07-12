@@ -407,4 +407,3 @@ class QuestionLike
     questions.map {|q| Question.new(q)}
   end
 end
-
