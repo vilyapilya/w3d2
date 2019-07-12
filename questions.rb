@@ -408,4 +408,3 @@ class QuestionLike
   end
 end
 
-
